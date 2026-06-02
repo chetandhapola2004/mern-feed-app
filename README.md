@@ -1,28 +1,55 @@
-# MERN Feed App
+# Mini Post App 🚀
 
-A full-stack MERN application where users can create and view posts with image upload functionality.
+A full-stack MERN application where users can create, view, and delete posts with image upload functionality.
 
-## Tech Stack
-- React.js
-- Node.js
-- Express.js
-- MongoDB
-- Axios
+## 🌐 Live Demo
 
-## Features
-- Create Posts
-- Feed Page
-- Image Uploads
-- Backend API Integration
+Frontend: https://mern-feed-app.vercel.app/
 
-## Run Locally
+Backend API: https://mern-feed-backend.onrender.com/
 
-Backend:
+## 📸 Screenshots
 
-npm install
-npm start
+Add screenshots here:
 
-Frontend:
+* Home Page
+* Create Post Page
+* Feed Page
 
-npm install
-npm run dev
+## ✨ Features
+
+* Create posts
+* View all posts
+* Delete posts
+* Image upload support
+* Responsive UI
+* Full-stack deployment
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* React.js
+* Axios
+* CSS
+* Vite
+
+### Backend
+
+* Node.js
+* Express.js
+* MongoDB
+* Mongoose
+
+### Deployment
+
+* Vercel (Frontend)
+* Render (Backend)
+* MongoDB Atlas (Database)
+
+
+## 👨‍💻 Author
+
+Chetan Dhapola
+
+Engineering Student | Full Stack Learner | MERN Developer
