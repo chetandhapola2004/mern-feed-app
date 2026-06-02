@@ -8,7 +8,7 @@ const Feed = () => {
   ])
 
 useEffect(() => {
-    axios.get("http://localhost:3000/post")
+    axios.get("https://mern-feed-backend.onrender.com/post")
         .then((res) => {
             console.log(res.data);
             setPosts(res.data.post) 
@@ -16,7 +16,7 @@ useEffect(() => {
 }, [])
 
 const handleDelete = async (id) => {
-    axios.delete(`http://localhost:3000/post/${id}`)
+    axios.delete(`https://mern-feed-backend.onrender.com/post/${id}`)
         .then(() => {
             setPosts(posts.filter(post => post._id !== id))
         })

@@ -19,7 +19,7 @@ const handleSubmit = async (e) => {
     const formData = new FormData(e.target)
 
 try {
-    await axios.post("http://localhost:3000/create-post", formData)
+    await axios.post("https://mern-feed-backend.onrender.com/create-post", formData)
     e.target.reset()
     document.getElementById('file-name').textContent = ''
     navigate("/feed")        // ← move this BEFORE alert
