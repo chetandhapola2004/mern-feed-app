@@ -4,7 +4,7 @@ A full-stack MERN application where users can create, view, and delete posts wit
 
 ## 🌐 Live Demo
 
-Frontend: https://mern-feed-app.vercel.app/
+Frontend: https://chetan-mini-post-app.vercel.app/
 
 Backend API: https://mern-feed-backend.onrender.com/
 
